@@ -1,0 +1,129 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Emo Commiunication Box\n"
+"POT-Creation-Date: 2022-01-16 11:56+0330\n"
+"PO-Revision-Date: 2022-01-16 11:56+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: emo-communication-box.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: emo-communication-box.php:49
+msgid "Whatsapp"
+msgstr ""
+
+#: emo-communication-box.php:58
+msgid "Call"
+msgstr ""
+
+#: includes/function-admin.php:16 includes/function-admin.php:19
+#: includes/templates/emo-ecb-admin.php:1
+msgid "Communication box settings"
+msgstr ""
+
+#: includes/function-admin.php:16
+msgid "Communication"
+msgstr ""
+
+#: includes/function-admin.php:19
+msgid "Settings"
+msgstr ""
+
+#: includes/function-admin.php:40
+msgid "Activation Settings"
+msgstr ""
+
+#: includes/function-admin.php:41
+msgid "Activate communication icon "
+msgstr ""
+
+#: includes/function-admin.php:42
+msgid "Activate whatsapp icon "
+msgstr ""
+
+#: includes/function-admin.php:43
+msgid "Activate phone icon "
+msgstr ""
+
+#: includes/function-admin.php:45
+msgid "Your Whatsapp Number"
+msgstr ""
+
+#: includes/function-admin.php:46
+msgid "Your Phone Number"
+msgstr ""
+
+#: includes/function-admin.php:49
+msgid "Place settings"
+msgstr ""
+
+#: includes/function-admin.php:50
+msgid "Set the icon place"
+msgstr ""
+
+#: includes/function-admin.php:55
+msgid "Style settings"
+msgstr ""
+
+#: includes/function-admin.php:56
+msgid "Set background color"
+msgstr ""
+
+#: includes/function-admin.php:90
+msgid "Whatsapp number"
+msgstr ""
+
+#: includes/function-admin.php:91
+msgid "Put your whatsapp number"
+msgstr ""
+
+#: includes/function-admin.php:96
+msgid "Phone number"
+msgstr ""
+
+#: includes/function-admin.php:97
+msgid "Put your phone number"
+msgstr ""
+
+#: includes/function-admin.php:104
+msgid "Bottom left"
+msgstr ""
+
+#: includes/function-admin.php:106
+msgid "Bottom right"
+msgstr ""
+
+#: includes/templates/emo-ecb-admin.php:5
+msgid "Save stettings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Emo Commiunication Box"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Emo communication box is a plugin for communicate between site manager and "
+"site viewers"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ebrahim Moeini"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://padiab.com/ebrahimmoeini/"
+msgstr ""

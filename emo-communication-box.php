@@ -5,7 +5,7 @@
  * Plugin Name: Emo Commiunication Box 
  * Plugin URI: 
  * Description: Emo communication box is a plugin for communicate between site manager and site viewers
- * Version: 0.1.0
+ * Version: 1.0.0
  * Author: Ebrahim Moeini 
  * Author URI: https://padiab.com/ebrahimmoeini/
  * License: Gplv2 or later
