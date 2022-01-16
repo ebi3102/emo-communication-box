@@ -16,8 +16,8 @@ Emo Commiunication Box  is distributed in the hope that it will be useful, but W
 This section describes how to install the plugin and get it working.
 e.g.
 1. Upload `emo-communication-box` directory to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. In admin area from side menu click on `Commiunication` and set the settings. 
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. In admin area from side menu click on `Commiunication` and set the settings. 
 == Frequently Asked Questions ==
 = A question that someone might have =
 An answer to that question.
