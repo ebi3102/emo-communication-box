@@ -13,7 +13,7 @@ function emo_ecb_add_admin_page() {
 	global $ecb_plugin_url;
 	//Generate ECB Admin Page
 	//__( 'Blog Options', 'robintalk' )
-	add_menu_page( __( 'Communication box settings', 'emo_ecb' ), __( 'ECB', 'emo_ecb' ), 'manage_options', 'emo_ecb_slug', 'emo_ecb_create_page', $ecb_plugin_url . 'assets/images/logo-icon.png', 110 );
+	add_menu_page( __( 'Communication box settings', 'emo_ecb' ), __( 'Communication', 'emo_ecb' ), 'manage_options', 'emo_ecb_slug', 'emo_ecb_create_page', $ecb_plugin_url . 'assets/images/logo-icon.png', 110 );
 	
 	//Generate Sunset Admin Sub Pages
 	add_submenu_page('emo_ecb_slug', __( 'Communication box settings', 'emo_ecb' ), __( 'Settings', 'emo_ecb' ) , 'manage_options' , 'emo_ecb_slug' , 'emo_ecb_create_page');
