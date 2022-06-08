@@ -33,7 +33,7 @@ $ecb_plugin_directory = __DIR__ ;
 
 require __DIR__ . '/includes/Class_icon_representation.php';
 
-if( get_option('activate-ecb-plugin') && (get_option('activate-ecb-whatsapp') || get_option('activate-ecb-phone'))){
+if( get_option('activate-ecb-plugin') && (get_option('activate-ecb-whatsapp') || get_option('activate-ecb-phone') || get_option('activate-ecb-custom'))){
     add_action( 'wp_footer', 'ecb_chat' );
 }
 
@@ -60,6 +60,15 @@ function ecb_chat(){
         array_push($args, $arg);
     }
 
+    if(get_option('activate-ecb-custom')){
+        $arg = array(
+            'url' => esc_attr( get_option('custom_link') )  ,
+            'icon_url' => esc_attr( get_option('custom_icon') ),
+            'tooltip' => esc_attr( get_option('custom_tooltip') )
+        );
+        array_push($args, $arg);
+    }
+
     $chat_icon->render_icon_template($args);
 
 }
@@ -71,6 +80,13 @@ function ecb_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'ecb_scripts');
+
+function ecb_admin_scripts($hook){
+    if( 'toplevel_page_emo_ecb_slug' != $hook ){ return; }
+    wp_enqueue_media();
+    wp_enqueue_script( 'emo_ecb-admin-js',plugin_dir_url( __FILE__ ) . 'assets/js/scripts.admin.js', array('jquery'), '1.0', true );
+}
+add_action( 'admin_enqueue_scripts', 'ecb_admin_scripts' );
 
 require __DIR__ . '/includes/function-admin.php';
 
