@@ -32,7 +32,7 @@ class Class_icon_representation
         echo '<div class="fab-container">';
         if(count($args) == 1){
             foreach($args as $arg){
-                echo '<div class="fab round '.  $this->location_settings . ' '. $this->bg_color . ' data-tooltip="'. $arg['tooltip'].
+                echo '<div class="fab round '.  $this->location_settings . ' '. $this->bg_color . '" data-tooltip="'. $arg['tooltip'].
             '" id="fab1"><a href="'.$arg['url'].'"><img id="fab1" style="width: 30px" src="'. $arg['icon_url'] .'" alt="'. $arg['tooltip'].'"></a></div>';
             }
         }else{

@@ -130,7 +130,7 @@
   text-overflow: ellipsis;
   vertical-align: middle;
 }
-.inner-fabs.show .fab:hover:before {
+.inner-fabs.show .fab:hover:before, .fab:hover:before {
   content: attr(data-tooltip);
   visibility: visible;
   opacity: 1;
